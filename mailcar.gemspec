@@ -7,11 +7,11 @@ require "mailcar/version"
 Gem::Specification.new do |s|
   s.name        = "mailcar"
   s.version     = Mailcar::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Mailcar."
-  s.description = "TODO: Description of Mailcar."
+  s.authors     = ["Mark Daggett"]
+  s.email       = ["mark@humansized.com"]
+  s.homepage    = "https://github.com/heavysixer/mailcar"
+  s.summary     = "Mailcare is a mountable rails engine for sending mail to your users."
+  s.description = ""
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
